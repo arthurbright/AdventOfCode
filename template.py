@@ -1,4 +1,4 @@
-
+from collections import defaultdict
 with open("in", "r") as file:
 
     total = 0
