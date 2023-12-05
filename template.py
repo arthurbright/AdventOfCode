@@ -1,11 +1,15 @@
 from collections import defaultdict
-with open("in", "r") as file:
+file = open("in", "r")
 
-    total = 0
+total = 0
     
-    for line in file:
-        words = line.split()
-        s = arr[0]
-        n = len(s)
+for line in file:
+    words = line.split()
+    print(words)
     
-    print(total)
+
+
+    
+print(total)
+
+file.close()
