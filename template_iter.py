@@ -1,5 +1,6 @@
 from collections import defaultdict
 import itertools
+import functools
 file = open("in", "r")
 
 total = 0
