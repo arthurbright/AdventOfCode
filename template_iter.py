@@ -1,4 +1,5 @@
 from collections import defaultdict, deque
+from functools import cache
 import itertools
 import functools
 import math
