@@ -8,6 +8,10 @@ file = open("in", "r")
 total = 0
 
 grid = []
+def print_grid():
+    for row in grid:
+        print("".join(row))
+        
 ## read in file input as a grid
 for line in file:
     words = line.split()
