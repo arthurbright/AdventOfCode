@@ -1,30 +1,12 @@
-Register A: 46187030
-Register B: 0
-Register C: 0
+A^A<<^^A>>AvvvA
+A<A>A<<vAA>^AA>AvAA^A<vAAA>^A
+A<<vA>>^AvA^A<<vAA>A>^AAvA<^A>AAvA^A<vA>^AA<A>A<<vA>A>^AAAvA<^A>A
+A<<vA>>^AvA^A<<vAA>A>^AAvA<^A>AAvA^A<vA>^AA<A>A<<vA>A>^AAAvA<^A>A
 
-2,4,
-1,5,
-7,5,
-0,3,
-4,0,
-1,6,
-5,5,
-3,0
+A^A^^<<A>>AvvvA
+A<A>A<AAv<AA^>>AvAA^Av<AAA^>A
+Av<<A^>>AvA^Av<<A^>>AAv<A<A^>>AA<Av>AA^Av<A^>AA<A>Av<A<A^>>AAA<Av>A^A
+Av<<A^>>AvA^Av<<A^>>AAv<A<A^>>AA<Av>AA^Av<A^>AA<A>Av<A<A^>>AAA<Av>A^A
 
-B = (A mod 8) 
-B = B XOR 101 (5)
-C = A//(2^^B)
-A = A//8
-B ^= C
-B ^= 6
-output B
-redo if A not 0
-
-B = D XOR (A//(2^^(D XOR 101))) 
-A = A//8
-output B
-redo if A not 0
-
-2,4,1,5,7,5,0,3,4,0,1,6,5,5,3,0
-
-[1, 7, 2, 6, 4, 6, 3, 0, 7, 3, 2, 5, 6, 6, 0, 3]
+A<A>A<<vAA>^AA>AvAA^A<vAAA>^A
+A<A>A<AAv<AA^>>AvAA^Av<AAA^>A
